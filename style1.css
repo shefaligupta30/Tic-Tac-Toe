@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: white;
+    
+
+}
